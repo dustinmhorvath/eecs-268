@@ -1,0 +1,37 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <random>
+#include <ctime>
+
+
+int main(int argc, char** argv){
+
+
+
+	if(argc == 0){
+		std::cout << "Use RNG with the following arguments:" << std::endl << std::endl;
+
+		std::cout << "./RNG filename count min max" << std::endl;
+		std::cout << "filename is the ouput file name" << std::endl;
+		std::cout << "count is the amount of random numbers to place in the file" << std::endl;
+		std::cout << "min is the low end of the range of random numbers" << std::endl;
+		std::cout << "max is the high end (non-inclusive) of the range of random numbers" << std::endl;
+	}
+	else{
+		std::string filepath = argv[1];
+		std::ofstream outFile(filepath);
+		outFile << argv[2] << "\n";
+		std::default_random_engine generator(time(nullptr));
+		std::uniform_int_distribution<int> distribution(argv[3],argv[4]);
+		int rand = 0;
+		while(int i = 0; i < argv[2]; i++){
+			rand = distribution(generator);
+			outFile << rand << "\n";
+		}
+	}
+
+
+
+return 0;
+}

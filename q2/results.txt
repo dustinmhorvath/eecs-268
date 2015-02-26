@@ -1,0 +1,105 @@
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 1
+input a value: 
+22 successfully added to the queue
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 1
+input a value: 
+33 successfully added to the queue
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 1
+input a value: 
+44 successfully added to the queue
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 2
+input a value: 
+32 successfully added to the queue
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 2
+input a value: 
+21 successfully added to the queue
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 3
+
+Compare queue and stack:
+q < s: 1
+s < q: 0
+q == s: 0
+s == q: 0
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 2
+input a value: 
+12 successfully added to the queue
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 3
+
+Compare queue and stack:
+q < s: 0
+s < q: 0
+q == s: 1
+s == q: 1
+
+
+Select an action:
+1) Push onto stack
+2) Enqueue a value
+3) Print comparisons
+4) Quit
+Enter choice: 
+You chose: 4
